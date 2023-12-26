@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Montserrat:wght@200&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+
+body {
+  height: 100vh;
+  background: #212521
+}
+.nuvbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.nuvbar h2 {
+  color: #ffb742;
+  font-weight: 600;
+}
+
+.nuvbar ul {
+  display: flex;
+}
+
+.nuvbar ul li {
+  list-style: none;
+}
+
+.nuvbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+
+.nuvbar ul li:hover a{
+  color: #ffb742;
+}
+
+.nuvbar ul li:last-child a{
+  margin: 0;
+}
+
+.cartunu {
+  padding: 50px;
+  padding-top: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.cartuna_1 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+.cartuna_2 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+.cartuna_3 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+.cartuna_4 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+.cartuna_5 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+.cartuna_6 {
+  margin-right: 5px;
+  width:auto;
+  height: 300px;
+}
+
+
+button > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button {
+  text-align: center;
+  width: 20%;
+  background-color: #49a65f;
+  border: none;
+  text-decoration: none;
+}
+
+button > a:hover {
+  color: #000;
+}
+
+button:hover {
+  transition: 0.215s;
+  cursor: pointer;
+  background-color: #72b882;
+  border-radius: 3px;
+} 
+
